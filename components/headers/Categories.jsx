@@ -12,7 +12,7 @@ export default function Categories() {
             {elm.title}
           </a>
           <ul className="sub-menu">
-            <li className="item title">View Top IT Courses</li>
+            <li className="item title">View Top IT Course</li>
             {elm.subItems.map((elm2, i2) => (
               <li key={i2}>
                 <Link className="item" href={elm2.href}>
