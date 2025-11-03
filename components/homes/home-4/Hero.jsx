@@ -24,16 +24,14 @@ export default function Hero() {
 
       <div className="tf-container">
         <div className="row items-center">
-       
           <div className="col-lg-6">
             <div className="content">
               <h1
                 className="fw-7 font-cardo wow fadeInUp"
                 data-wow-delay="0.1s"
-               
               >
-                <span className="tf-secondary-color" >
-                  Stories Painted in Dots
+                <span className="tf-secondary-color">
+                  Stories Painted in Dots&nbsp;
                 </span>
                 <br />
                 The Legacy of Gond Art
@@ -43,16 +41,16 @@ export default function Hero() {
                 stories. Rooted in tradition, it celebrates nature, folklore,
                 and culture with colors that breathe life into ancient tales.
               </h6>
-              <div
-                className="bottom-btns wow fadeInUp"
-                data-wow-delay="0.3s"
-              >
-                <a href="#" className="tf-btn style-secondary" style={{
-                          fontFamily: " 'DM Sans', sans-serif", 
-                          color: "white", 
-                          textDecoration: "none",
-                        }}  
->
+              <div className="bottom-btns wow fadeInUp" data-wow-delay="0.3s">
+                <a
+                  href="#"
+                  className="tf-btn style-secondary"
+                  style={{
+                    fontFamily: " 'DM Sans', sans-serif",
+                    color: "white",
+                    textDecoration: "none",
+                  }}
+                >
                   Explore Gond Art
                   <i className="icon-arrow-top-right" />
                 </a>
@@ -60,7 +58,6 @@ export default function Hero() {
             </div>
           </div>
 
-     
           <div className="col-lg-6 deer flex justify-end content">
             <Image
               className="lazyload"
@@ -75,5 +72,3 @@ export default function Hero() {
     </div>
   );
 }
-
-

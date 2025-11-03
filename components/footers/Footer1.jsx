@@ -74,30 +74,6 @@ export default function Footer1({ parentClass = "footer" }) {
                       art, celebrating stories painted by hand and heart.
                     </p>
 
-                    <ul className="address">
-                      <li className="flex gap-10 items-center">
-                        <div className="icon">
-                          <i className="flaticon-call" />
-                        </div>
-                        <p>+91 98765 43210</p>
-                      </li>
-                      <li className="flex gap-10 items-center">
-                        <div className="icon">
-                          <i className="flaticon-mail-1" />
-                        </div>
-                        <p>support@ AAVAKSHA.in</p>
-                      </li>
-                      <li className="flex gap-10 items-center">
-                        <div className="icon">
-                          <i className="flaticon-location" />
-                        </div>
-                        <p>
-                          21 Handicraft Lane, Bhubaneswar, <br />
-                          Odisha, India
-                        </p>
-                      </li>
-                    </ul>
-
                     <ul className="tf-social-icon flex items-center gap-10 mt-4">
                       {socialLinks.map((link, index) => (
                         <li key={index}>
@@ -136,72 +112,28 @@ export default function Footer1({ parentClass = "footer" }) {
                     className="footer-subscribe wow fadeInUp"
                     data-wow-delay="0.5s"
                   >
-                    <h5 className="fw-5">Stay Connected</h5>
-                    <p>
-                      Join our community of art lovers & discover handmade
-                      wonders straight from India’s artisans.
-                    </p>
-
-                    <div
-                      className={`tfSubscribeMsg ${
-                        showMessage ? "active" : ""
-                      }`}
-                    >
-                      {success ? (
-                        <p style={{ color: "rgb(52, 168, 83)" }}>
-                          You have successfully subscribed.
-                        </p>
-                      ) : (
-                        <p style={{ color: "red" }}>Something went wrong</p>
-                      )}
-                    </div>
-
-                    <form
-                      className="form-subscribe style-line-bottom"
-                      onSubmit={sendMail}
-                      ref={formRef}
-                    >
-                      <fieldset className="email">
-                        <input
-                          type="email"
-                          placeholder="Enter your email"
-                          className="style-default"
-                          name="email"
-                          tabIndex={2}
-                          required
-                        />
-                      </fieldset>
-                      <div className="button-submit">
-                        <button className="tf-btn-arrow" type="submit">
-                          Subscribe
-                          <i className="icon-arrow-top-right" />
-                        </button>
-                      </div>
-                    </form>
-
-                    <h5 className="fw-5 get-app mt-6">Experience AAVAKSHA</h5>
-                    <ul className="tf-app-download">
-                      <li>
-                        <a href="#">
-                          <div className="icon">
-                            <i className="icon-apple" />
-                          </div>
-                          <div className="app">
-                            <div>Download on the</div>
-                            <div>Apple Store</div>
-                          </div>
-                        </a>
+                    <h5 className="fw-5">Contact Us</h5>
+                    <ul className="address">
+                      <li className="flex gap-10 items-center">
+                        <div className="icon pb-4 ">
+                          <i className="flaticon-call" />
+                        </div>
+                        <p>+91 98765 43210</p>
                       </li>
-                      <li>
-                        <a href="#">
-                          <div className="icon">
-                            <i className="icon-chplay" />
-                          </div>
-                          <div className="app">
-                            <div>Get it on</div>
-                            <div>Google Play</div>
-                          </div>
-                        </a>
+                      <li className="flex gap-10 items-center">
+                        <div className="icon pb-4">
+                          <i className="flaticon-mail-1" />
+                        </div>
+                        <p>support@ AAVAKSHA.in</p>
+                      </li>
+                      <li className="flex gap-10 items-center">
+                        <div className="icon pb-4 pb-lg-5 mb-lg-4">
+                          <i className="flaticon-location" />
+                        </div>
+                        <p>
+                          21 Handicraft Lane, Bhubaneswar, <br />
+                          Odisha, India
+                        </p>
                       </li>
                     </ul>
                   </div>
