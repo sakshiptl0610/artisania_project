@@ -8,7 +8,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Events() {
-  const [title, setTitle] = useState("Upcoming Events"); 
+  const [title, setTitle] = useState("Upcoming Events");
 
   useEffect(() => {
     setTitle("Our Products");
@@ -17,7 +17,7 @@ export default function Events() {
   const options = {
     spaceBetween: 28,
     speed: 1000,
-    slidesPerView: 4, 
+    slidesPerView: 4,
     grid: { rows: 2, fill: "row" },
     breakpoints: {
       0: { slidesPerView: 1, grid: { rows: 1 } },
@@ -27,12 +27,18 @@ export default function Events() {
   };
 
   return (
-    <section className="section-event style-2 tf-spacing-3 pt-0" style={{ backgroundColor: "#fffdf0" }}>
+    <section
+      className="section-event style-2 tf-spacing-3 pt-5"
+      style={{ backgroundColor: "#fffdf0" }}
+    >
       <div className="tf-container cntnr ">
         <div className="row">
           <div className="col-12">
             <div className="heading-section text-center">
-              <h2 className="title fw-7 wow fadeInUp font-cardo" data-wow-delay="0.1s">
+              <h2
+                className="title fw-7 wow fadeInUp font-cardo"
+                data-wow-delay="0.1s"
+              >
                 {title}
               </h2>
               <p className="wow fadeInUp" data-wow-delay="0.2s">
@@ -72,10 +78,14 @@ export default function Events() {
                           className="tf-btn-arrow wow fadeInUp"
                           data-wow-delay="0.4s"
                           style={{ color: "#8f3e0b", transition: "color 0.3s" }}
-                          onMouseEnter={(e) => (e.currentTarget.style.color = "#131836")}
-                          onMouseLeave={(e) => (e.currentTarget.style.color = "#8f3e0b")}
+                          onMouseEnter={(e) =>
+                            (e.currentTarget.style.color = "#131836")
+                          }
+                          onMouseLeave={(e) =>
+                            (e.currentTarget.style.color = "#8f3e0b")
+                          }
                         >
-                          View Product...
+                          View Product
                         </Link>
                       </div>
                     </div>
@@ -83,14 +93,17 @@ export default function Events() {
                 </SwiperSlide>
               ))}
             </Swiper>
-            <div className="event-btn flex justify-center">
+            <div className="event-btn flex justify-center ">
               <Link
-                href={`/event-list`}
-                className="tf-btn-arrow wow fadeInUp"
-                data-wow-delay="0.4s"
+                href="/our-products"
+                className="tf-btn style-secondary wow fadeInUp"
+                data-wow-delay="0.3s"
+                style={{ borderRadius: "12px" }}
               >
-                View All
-                <i className="icon-arrow-top-right" />
+                <span className="text-yellow-400 font-bold">
+                  View All products
+                </span>{" "}
+                <i className="icon-arrow-top-right ml-2" />
               </Link>
             </div>
           </div>

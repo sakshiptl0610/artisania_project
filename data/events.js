@@ -1,86 +1,76 @@
 export const events = [
   {
     id: 1,
-    imgSrc: "/images/our products/2.png",
+    imgSrc: "/images/ourproducts/1.png",
     alt: "Hand painted Gond style Tray/plate",
     date: { day: "22", month: "April" },
     location: "New York, Us",
     time: "8:00 am - 5:00 pm",
-    title: "Hand painted Gond Tray/plate",
-   
+    title: "0001",
   },
   {
     id: 2,
-    imgSrc: "/images/our products/1.png",
+    imgSrc: "/images/ourproducts/2.png",
     alt: "Hand painted salad bowl in Gond Art",
     date: { day: "22", month: "April" },
     location: "London, UK",
     time: "8:00 am - 5:00 pm",
-    title: "Hand Carved Wooden Holder",
-    
+    title: "0002",
   },
   {
     id: 3,
-    imgSrc: "/images/our products/3.png",
+    imgSrc: "/images/ourproducts/3.png",
     alt: "Consumer Food Safety Education Conference",
     date: { day: "22", month: "April" },
     location: "New York, Us",
     time: "8:00 am - 5:00 pm",
-    title: "Hand painted bowl in Gond Art",
-    
+    title: "0003",
   },
   {
     id: 4,
-    imgSrc: "/images/our products/4.png",
+    imgSrc: "/images/ourproducts/4.png",
     alt: "Hand Painted Black Candle Holder",
     date: { day: "22", month: "April" },
     location: "New York, Us",
     time: "8:00 am - 5:00 pm",
-    title: "Hand Painted Candle Holder",
-    
-
-
+    title: "0004",
   },
   {
     id: 5,
-    imgSrc: "/images/our products/5.png",
+    imgSrc: "/images/ourproducts/5.png",
     alt: "Hand painted Gond style Tray/plate",
     date: { day: "22", month: "April" },
     location: "New York, Us",
     time: "8:00 am - 5:00 pm",
-    title: "Hand weaved Sabai grass basket",
-    
+    title: "0005",
   },
 
   {
     id: 6,
-    imgSrc: "/images/our products/6.png",
+    imgSrc: "/images/ourproducts/6.png",
     alt: "Hand painted Gond style Tray/plate",
     date: { day: "22", month: "April" },
     location: "New York, Us",
     time: "8:00 am - 5:00 pm",
-    title: "Natural bowl made of dry gourd",
-   
+    title: "0006",
   },
   {
     id: 7,
-    imgSrc: "/images/our products/7.png",
+    imgSrc: "/images/ourproducts/7.png",
     alt: "Hand painted Gond style Tray/plate",
     date: { day: "22", month: "April" },
     location: "New York, Us",
     time: "8:00 am - 5:00 pm",
-    title: "Hand weaved Sabai grass Bag",
-    
+    title: "0007",
   },
   {
     id: 8,
-    imgSrc: "/images/our products/8.png",
+    imgSrc: "/images/ourproducts/8.png",
     alt: "Hand painted Gond style Tray/plate",
     date: { day: "22", month: "April" },
     location: "New York, Us",
     time: "8:00 am - 5:00 pm",
-    title: "Rectangular Bamboo Tray",
-    
+    title: "0008",
   },
 ];
 
@@ -90,8 +80,8 @@ export const events2 = [
     location: "New York, Us",
     time: "25-10-2025",
     title: "What is Gond Art?",
-    para:"Dive into the origins of Gond Art – a tribal painting tradition rooted in storytelling. Discover how nature, folklore, and spirituality come alive through bold lines and vibrant colors.",
-   image:"/images/blog/1.png",
+    para: "Dive into the origins of Gond Art – a tribal painting tradition rooted in storytelling. Discover how nature, folklore, and spirituality come alive through bold lines and vibrant colors.",
+    image: "/images/blog/1.png",
     delay: "0.3s",
   },
   {
@@ -99,8 +89,8 @@ export const events2 = [
     location: "New York, Us",
     time: "25-10-2025",
     title: "How I Create My Paintings – Step by Step",
-    para:"Go behind the canvas with me as I share my creative journey – from sketching motifs to layering patterns and colors, turning stories into timeless artworks.",
-    image:"/images/blog/3.png",
+    para: "Go behind the canvas with me as I share my creative journey – from sketching motifs to layering patterns and colors, turning stories into timeless artworks.",
+    image: "/images/blog/3.png",
     delay: "0.35s",
   },
   {
@@ -108,12 +98,10 @@ export const events2 = [
     location: "New York, Us",
     time: "25-10-2025",
     title: "The Sacred Trees and Animals of Gond",
-    para:"Explore the deep symbolism of trees, birds, and animals in Gond art. Each motif represents life, harmony, and the sacred bond between humans and nature.",
-    image:"/images/blog/2.png",
+    para: "Explore the deep symbolism of trees, birds, and animals in Gond art. Each motif represents life, harmony, and the sacred bond between humans and nature.",
+    image: "/images/blog/2.png",
     delay: "0.4s",
   },
-
-  
 ];
 
 export const events3 = [

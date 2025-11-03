@@ -7,12 +7,12 @@ import Facts from "@/components/homes/home-4/Facts";
 import Testimonials from "@/components/homes/home-4/Testimonials";
 import Footer1 from "@/components/footers/Footer1";
 import AboutUs from "@/components/homes/home-4/AboutUs";
-
+import DownloadApp from "@/components/homes/home-4/DownloadApp";
 
 export const metadata = {
-  title:
-    "Artisania",
-  description: "Artisania blends tradition and creativity with handmade, timeless crafts",
+  title: " AAVAKSHA",
+  description:
+    " AAVAKSHA blends tradition and creativity with handmade, timeless crafts",
 };
 export default function page() {
   return (
@@ -22,8 +22,9 @@ export default function page() {
         <Hero />
         <div className="main-content pt-0">
           <AboutUs />
+          <DownloadApp />
           <Events />
-          <Instractors />
+          {/* <Instractors /> */}
           <Facts />
           <Testimonials />
         </div>
@@ -32,14 +33,3 @@ export default function page() {
     </>
   );
 }
-
-
-
-
-
-
-
-
-
-
-

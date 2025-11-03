@@ -34,9 +34,12 @@ export const menuItems = [
   },
 ];
 export const socialLinks = [
-  { icon: "flaticon-facebook-1", href: "https://facebook.com/artisania.in" },
-  { icon: "icon-twitter", href: "https://twitter.com/artisania_in" },
-  { icon: "flaticon-instagram", href: "https://instagram.com/artisania.in" },
-  { icon: "flaticon-linkedin-1", href: "https://linkedin.com/company/artisania" },
-  { icon: "icon-pinterest", href: "https://pinterest.com/artisania" },
+  { icon: "flaticon-facebook-1", href: "https://facebook.com/ AAVAKSHA.in" },
+  { icon: "icon-twitter", href: "https://twitter.com/ AAVAKSHA_in" },
+  { icon: "flaticon-instagram", href: "https://instagram.com/ AAVAKSHA.in" },
+  {
+    icon: "flaticon-linkedin-1",
+    href: "https://linkedin.com/company/ AAVAKSHA",
+  },
+  { icon: "icon-pinterest", href: "https://pinterest.com/ AAVAKSHA" },
 ];

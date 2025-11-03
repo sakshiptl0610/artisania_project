@@ -11,7 +11,7 @@ export default function Facts() {
     <section
       className="section-event section-popular-courses style-7 relative bg-fixed bg-center bg-cover bg-no-repeat"
       style={{
-        backgroundImage: "url('/images/bg-image/9.png')", 
+        backgroundImage: "url('/images/bg-image/9.png')",
       }}
     >
       <div className="tf-container">
@@ -21,11 +21,10 @@ export default function Facts() {
               <h2
                 className="title fw-7 font-cardo wow fadeInUp text-white"
                 data-wow-delay="0.1s"
-                
               >
                 Blog
               </h2>
-              <p className="wow fadeInUp text-white" data-wow-delay="0.2s" >
+              <p className="wow fadeInUp text-white" data-wow-delay="0.2s">
                 Explore stories, insights, and inspirations from the world of
                 Indian art and culture.
               </p>

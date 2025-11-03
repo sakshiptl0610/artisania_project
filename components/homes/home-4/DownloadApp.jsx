@@ -5,69 +5,68 @@ export default function DownloadApp() {
     <section className="section-mobile-app style2 bg-4">
       <div className="tf-container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-8">
             <div className="content-left">
               <div className="box-sub-tag wow fadeInUp" data-wow-delay="0.1s">
                 <div className="sub-tag-icon">
                   <i className="icon-flash" />
                 </div>
                 <div className="sub-tag-title">
-                  <p>Download &amp; Enjoy</p>
+                  <p>About Gond Art</p>
                 </div>
               </div>
               <h2
                 className="fw-7 font-cardo wow fadeInUp"
                 data-wow-delay="0.2s"
               >
-                The Best Place To{" "}
-                <span className="tf-secondary-color">Learn?</span>
+                <span className="tf-secondary-color"> At AAVAKSHA,</span>
                 <br />
-                Wherever You Are.
               </h2>
               <p className="fs-15 wow fadeInUp" data-wow-delay="0.3s">
-                With the UpSkill App, you can learn no matter where you are.
-                <br />
-                Download now to learn anything, anytime for free.
+                we believe that art is not just an expression but a connection
+                to our roots — a celebration of tradition and a timeless craft
+                passed through generations. Our brand is built on a deep
+                admiration for India’s indigenous art forms, ensuring that every
+                piece we create tells a story of culture, craftsmanship, and
+                heritage.{" "}
               </p>
-              <ul
-                className="tf-app-download tf-app-download-style-2 app-download-mobie wow fadeInUp"
-                data-wow-delay="0.4s"
-              >
-                <li>
-                  <a href="#">
-                    <div className="icon">
-                      <i className="icon-apple" />
-                    </div>
-                    <div className="app">
-                      <div>Download on the</div>
-                      <div>Apple Store</div>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <div className="icon">
-                      <i className="icon-chplay" />
-                    </div>
-                    <div className="app">
-                      <div>Get in on</div>
-                      <div>Google Play</div>
-                    </div>
-                  </a>
-                </li>
-              </ul>
+              <p className="fs-15 wow fadeInUp" data-wow-delay="0.3s">
+                {" "}
+                We take pride in curating and designing exclusive art pieces
+                that honour India’s rich artistic traditions. From the intricate
+                strokes of Gond paintings to the eco-friendly craftsmanship of
+                Sabai grass, from handcrafted wooden decor to delicate
+                hand-pressed flower art, our collection is a tribute to the
+                unparalleled skill and spirit of Indian artisans. Each product
+                at AAVAKSHA is a masterpiece, reflecting the vibrant history and
+                soulful essence of our land.
+              </p>
+              <p className="fs-15 wow fadeInUp" data-wow-delay="0.3s">
+                Our mission is to bridge the gap between traditional
+                craftsmanship and contemporary lifestyles, making authentic
+                Indian art a part of every home. We work closely with skilled
+                artisans, empowering them to preserve their craft while bringing
+                their exceptional work to a wider audience.
+              </p>
+              <p className="fs-15 wow fadeInUp" data-wow-delay="0.3s">
+                With every purchase from AAVAKSHA, you embrace a piece of
+                India’s artistic legacy - handcrafted with love, rooted in
+                culture, and meant to be cherished for generations.
+              </p>
             </div>
           </div>
-          <div className="col-md-6">
-            <div className="image">
-              <Image
-                className="lazyload"
-                data-src="/images/section/mobile-app-3.png"
-                alt=""
-                src="/images/section/mobile-app-3.png"
-                width={1352}
-                height={991}
-              />
+          <div className="col-md-4">
+            <div className="img-lamp">
+              <div className="image">
+                <Image
+                  className="lazyload"
+                  data-src="/images/page-title/about-2.png"
+                  alt=""
+                  src="/images/page-title/about-2.png"
+                  width={500}
+                  height={500}
+                />
+              </div>
             </div>
           </div>
         </div>

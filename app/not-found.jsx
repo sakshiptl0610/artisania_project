@@ -1,14 +1,13 @@
 import Footer1 from "@/components/footers/Footer1";
-import Header1 from "@/components/headers/Header1";
 import Image from "next/image";
 
 import Link from "next/link";
 import React from "react";
 
 export const metadata = {
-  title: "Artisania || Stories Painted in Dots – The Legacy of Gond Art",
+  title: " AAVAKSHA || Stories Painted in Dots – The Legacy of Gond Art",
   description:
-    "Artisania celebrates India's timeless traditions — from Gond art to Sabai weaving, connecting heritage and modern homes.",
+    " AAVAKSHA celebrates India's timeless traditions — from Gond art to Sabai weaving, connecting heritage and modern homes.",
 };
 export default function page() {
   return (
@@ -17,8 +16,6 @@ export default function page() {
         <div className="tf-top-bar flex items-center justify-center">
           <p>Celebrating Indian Craftsmanship – Handcrafted with Love</p>
         </div>
-
-        <Header1 />
 
         <div className="main-content page-404">
           {/* section 404 */}

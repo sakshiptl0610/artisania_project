@@ -57,7 +57,7 @@ export default function Footer1({ parentClass = "footer" }) {
                     <div className="footer-logo mb-4">
                       <Link href={`/`}>
                         <Image
-                          alt="Artisania"
+                          alt=" AAVAKSHA"
                           src="/images/logo/logo.png"
                           width={200}
                           height={36}
@@ -65,8 +65,11 @@ export default function Footer1({ parentClass = "footer" }) {
                       </Link>
                     </div>
 
-                    <p className="text-sm text-gray-700 mb-4" style={{ maxWidth: "280px" }}>
-                      At <strong>Artisania</strong>, we bring you the beauty of
+                    <p
+                      className="text-sm text-gray-700 mb-4"
+                      style={{ maxWidth: "280px" }}
+                    >
+                      At <strong> AAVAKSHA</strong>, we bring you the beauty of
                       Indian craftsmanship — from Gond paintings to Sabai grass
                       art, celebrating stories painted by hand and heart.
                     </p>
@@ -82,7 +85,7 @@ export default function Footer1({ parentClass = "footer" }) {
                         <div className="icon">
                           <i className="flaticon-mail-1" />
                         </div>
-                        <p>support@artisania.in</p>
+                        <p>support@ AAVAKSHA.in</p>
                       </li>
                       <li className="flex gap-10 items-center">
                         <div className="icon">
@@ -140,7 +143,9 @@ export default function Footer1({ parentClass = "footer" }) {
                     </p>
 
                     <div
-                      className={`tfSubscribeMsg ${showMessage ? "active" : ""}`}
+                      className={`tfSubscribeMsg ${
+                        showMessage ? "active" : ""
+                      }`}
                     >
                       {success ? (
                         <p style={{ color: "rgb(52, 168, 83)" }}>
@@ -174,7 +179,7 @@ export default function Footer1({ parentClass = "footer" }) {
                       </div>
                     </form>
 
-                    <h5 className="fw-5 get-app mt-6">Experience Artisania</h5>
+                    <h5 className="fw-5 get-app mt-6">Experience AAVAKSHA</h5>
                     <ul className="tf-app-download">
                       <li>
                         <a href="#">
@@ -213,7 +218,7 @@ export default function Footer1({ parentClass = "footer" }) {
               <div className="col-12">
                 <div className="footer-bottom-wrap flex justify-center items-center">
                   <p>
-                    © {new Date().getFullYear()} <strong>Artisania</strong>.
+                    © {new Date().getFullYear()} <strong> AAVAKSHA</strong>.
                     Handcrafted with love in India.
                   </p>
                 </div>

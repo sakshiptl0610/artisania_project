@@ -1,5 +1,5 @@
 "use client";
-import { shopItems } from "@/data/products";
+// import { shopItems } from "@/data/products";
 import React, { useEffect } from "react";
 import { useContext, useState } from "react";
 const dataContext = React.createContext();

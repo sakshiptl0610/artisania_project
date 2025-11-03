@@ -47,10 +47,12 @@ export default function Testimonials() {
   };
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
-    <section className="tf-spacing-5 widget-saying" style={{
+    <section
+      className="tf-spacing-5 widget-saying"
+      style={{
         backgroundColor: "#fffdf0",
-             
-      }}>
+      }}
+    >
       <div className="tf-container">
         <div className="row justify-center">
           <div className="col-xl-10 col-sm-12">
@@ -59,7 +61,8 @@ export default function Testimonials() {
                 What Clients Are Saying
               </h2>
               <div className="sub fs-15 wow fadeInUp" data-wow-delay="0.2s">
-                Hear what our customers have to say about their Artisania experience.
+                Hear what our customers have to say about their AAVAKSHA
+                experience.
               </div>
             </div>
             <div className="gallery">

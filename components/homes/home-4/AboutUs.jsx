@@ -2,11 +2,12 @@ import React from "react";
 import Image from "next/image";
 export default function AboutUs() {
   return (
-    <section className="section-about-box style-1 tf-spacing-3 pt-0 "
+    <section
+      className="section-about-box style-1 tf-spacing-3 pt-0 "
       style={{ backgroundColor: "#fffdf0" }}
     >
       <div className="tf-container ">
-        <div className="row items-center" style={{ paddingTop:"30px" }}>
+        <div className="row items-center" style={{ paddingTop: "30px" }}>
           <div className="col-md-6 col-lg-7">
             <div className="box-img">
               <div className="wrap-image-agent">
@@ -59,21 +60,46 @@ export default function AboutUs() {
                 className="title-content fw-7  wow fadeInUp"
                 data-wow-delay="0.2s"
               >
-                <span className="tf-secondary-color font-cardo
-                " >At Artisania, </span>
+                <span
+                  className="tf-secondary-color font-cardo
+                "
+                >
+                  Our Journey of Art, Impact, and Empowerment{" "}
+                </span>
               </h2>
-              <p className="text-content wow fadeInUp" data-wow-delay="0.3s" style={{
-                fontFamily: " 'DM Sans', sans-serif",
-                color: "black",
-                textDecoration: "none",
-              }}  >
-                We believe art is more than expression—it’s a connection to our roots and a celebration of India’s timeless traditions.
-
-                From Gond paintings to Sabai grass weaving, from handcrafted wooden décor to pressed flower art, every piece we curate reflects the skill, spirit, and heritage of Indian artisans.
-
-                Our mission is to bring authentic Indian craftsmanship into modern homes while empowering artisans to preserve and share their legacy.
-
-                With every purchase, you embrace a piece of India’s culture—handmade with love, rooted in tradition, and crafted to be cherished for generations.
+              <p
+                className="text-content wow fadeInUp"
+                data-wow-delay="0.3s"
+                style={{
+                  fontFamily: " 'DM Sans', sans-serif",
+                  color: "black",
+                  textDecoration: "none",
+                }}
+              >
+                We are a socially responsible enterprise dedicated to creating a
+                meaningful balance between commercial growth and social impact.
+                Our work centers on the welfare of tribal artisans and the
+                preservation of India’s indigenous art and craft traditions.
+                Acting as a bridge between tribal communities and global
+                audiences, we connect India’s rich cultural heritage with
+                collaborators, collectors, and conscious consumers around the
+                world. Our initiatives encompass skill development, design
+                innovation, and product diversification — empowering artisans to
+                refine their traditional practices while adapting to
+                contemporary markets. Through workshops, training programs, and
+                design interventions, we nurture creative growth and ensure that
+                traditional knowledge continues to evolve with modern
+                sensibilities. We also provide cultural exposure to our artists
+                by organizing national and international exhibitions and
+                workshops. In collaboration with the French NGO Duppata, which
+                promotes women’s empowerment and Indian tribal art, we
+                participate in an annual month-long cultural event in France
+                featuring exhibitions and artist residencies. These initiatives
+                foster cross-cultural dialogue and global appreciation for
+                India’s tribal artistry. At the heart of our organization is a
+                founder deeply committed to sustaining tribal livelihoods,
+                nurturing creativity, and safeguarding the living legacy of
+                India’s indigenous art forms.
               </p>
               <a
                 className="tf-btn style-secondary wow fadeInUp"
@@ -92,7 +118,6 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-
     </section>
   );
 }
