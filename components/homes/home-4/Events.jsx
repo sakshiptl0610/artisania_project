@@ -41,7 +41,7 @@ export default function Events() {
               >
                 {title}
               </h2>
-              <p className="wow fadeInUp" data-wow-delay="0.2s">
+              <p className="wow fadeInUp text-center" data-wow-delay="0.2s">
                 Where Gond art comes alive—rich, colorful, timeless.
               </p>
             </div>
