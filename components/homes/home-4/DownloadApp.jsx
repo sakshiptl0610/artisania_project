@@ -56,7 +56,7 @@ export default function DownloadApp() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="img-lamp">
+            <div className="pt-lg-5 mt-lg-5 m-0 pt-md-5 p-0">
               <div className="image">
                 <Image
                   className="lazyload"
