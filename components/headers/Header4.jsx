@@ -47,8 +47,8 @@ export default function Header4() {
                 </Link>
               </div>
               <div className="header-join d-lg-none flex">
-                <Link href="/login" className="fs-15">
-                  Join
+                <Link href="#" className="fs-15">
+                  Contact
                 </Link>
               </div>
             </div>
