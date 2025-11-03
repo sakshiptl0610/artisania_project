@@ -11,8 +11,6 @@ export default function Header4() {
       <header id="header_main" className="header type-absolute style-4">
         <div className="header-inner">
           <div className="header-inner-wrap flex items-center justify-between">
-            
-           
             <div className="header-left flex items-center">
               <button
                 className="mobile-nav-toggler mobile-button d-lg-none flex mr-3"
@@ -34,7 +32,6 @@ export default function Header4() {
               </div>
             </div>
 
-            
             <div className="header-center flex justify-center flex-grow">
               <nav className="main-menu">
                 <ul className="navigation flex gap-6">
@@ -43,13 +40,9 @@ export default function Header4() {
               </nav>
             </div>
 
-            
             <div className="header-right flex items-center gap-4">
               <div className="header-register">
-                <Link
-                  href="/register"
-                  className="tf-button-default active header-text"
-                >
+                <Link href="#" className="tf-button-default active header-text">
                   Contact
                 </Link>
               </div>

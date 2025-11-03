@@ -36,28 +36,17 @@ export default function Nav() {
   return (
     <>
       {menuItems.map((item, index) => (
-        <li
-          key={index}
-          className={item.isActive ? "" : ""}
-        >
-          <a
-            href="#"
-            className={isMenuActive(item) ? "" : ""}
-          >
+        <li key={index} className={item.isActive ? "" : ""}>
+          <a href={item.href} className={isMenuActive(item) ? "" : ""}>
             {item.title}
           </a>
           {item.subItems && (
             <ul className={item.hasMega ? "mega-menu" : ""}>
               {item.subItems.map((subItem, subIndex) => (
-                <li
-                  key={subIndex}
-                  className={subItem.subItems? "" : ""}
-                >
+                <li key={subIndex} className={subItem.subItems ? "" : ""}>
                   {subItem.title && !subItem.href && (
                     <span
-                      className={`title ${
-                        isMenuActive(subItem) ? "" : ""
-                      }`}
+                      className={`title ${isMenuActive(subItem) ? "" : ""}`}
                     >
                       {subItem.title}
                     </span>

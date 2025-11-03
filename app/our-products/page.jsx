@@ -6,9 +6,9 @@ import PageTitle from "@/components/homes/our-products/PageTitle";
 import React from "react";
 
 export const metadata = {
-  title:
-    "Course Grid Basic || UpSkill - Education Online Courses LMS React Nextjs Template",
-  description: "UpSkill - Education Online Courses LMS React Nextjs Template",
+  title: " AAVAKSHA",
+  description:
+    "AAVAKSHA blends tradition and creativity with handmade, timeless crafts",
 };
 export default function page() {
   return (

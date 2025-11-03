@@ -1,9 +1,9 @@
 export const menuItems = [
   { title: "Home", isActive: true, href: "/" },
-  { title: "About us", hasMega: true, href: "/about" },
-  { title: "Products", isActive: true, href: "/products" },
-  { title: "Gallery", href: "/gallery" },
-  { title: "Blog", href: "/blog" },
+  { title: "About us", hasMega: true, href: "#" },
+  { title: "Products", isActive: true, href: "/our-products" },
+  { title: "Gallery", href: "#" },
+  { title: "Blog", href: "#" },
 ];
 
 export const categories = [
@@ -15,6 +15,10 @@ export const categories = [
   { id: 6, title: "Video & Animation", href: "/categories/video-animation" },
   { id: 7, title: "Photography", href: "/categories/photography" },
   { id: 8, title: "Lifestyle", href: "/categories/lifestyle" },
-  { id: 9, title: "Writing & Translation", href: "/categories/writing-translation" },
+  {
+    id: 9,
+    title: "Writing & Translation",
+    href: "/categories/writing-translation",
+  },
   { id: 10, title: "Programming & Tech", href: "/categories/programming-tech" },
 ];
