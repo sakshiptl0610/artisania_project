@@ -150,8 +150,8 @@ export default function Footer1({ parentClass = "footer" }) {
               <div className="col-12">
                 <div className="footer-bottom-wrap flex justify-center items-center">
                   <p>
-                    © {new Date().getFullYear()} <strong> AAVAKSHA</strong>.
-                    Handcrafted with love in India.
+                    © {new Date().getFullYear()}
+                    <strong>AAVAKSHA</strong>. Handcrafted with love in India.
                   </p>
                 </div>
               </div>

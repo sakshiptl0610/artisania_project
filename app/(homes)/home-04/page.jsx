@@ -2,7 +2,6 @@ import React from "react";
 import Header4 from "@/components/headers/Header4";
 import Hero from "@/components/homes/home-4/Hero";
 import Events from "@/components/homes/home-4/Events";
-import Instractors from "@/components/homes/home-4/Instractors";
 import Facts from "@/components/homes/home-4/Facts";
 import Testimonials from "@/components/homes/home-4/Testimonials";
 import Footer1 from "@/components/footers/Footer1";

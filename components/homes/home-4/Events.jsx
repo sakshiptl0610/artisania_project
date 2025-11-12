@@ -58,7 +58,7 @@ export default function Events() {
               {events.map((event, index) => (
                 <SwiperSlide className="swiper-slide" key={index}>
                   <div className="events-item style2 hover-img">
-                    <div className="event-item-img image-wrap">
+                    <div className="event-item-img image-wrap ">
                       <Image
                         className="lazyload"
                         data-src={event.imgSrc}
@@ -68,32 +68,32 @@ export default function Events() {
                         height={481}
                       />
                     </div>
-                    <div className="event-item-content">
-                      <div className="event-item-title fw-5 fs-18">
+                    <div className="event-item-content d-flex flex-row">
+                      <div className="event-item-title fw-5 fs-18 text-center">
                         <Link href={`/event-single/${event.id}`}>
                           {event.title}
                         </Link>
-                        <Link
-                          href={`/event-list`}
-                          className="tf-btn-arrow wow fadeInUp"
-                          data-wow-delay="0.4s"
-                          style={{ color: "#8f3e0b", transition: "color 0.3s" }}
-                          onMouseEnter={(e) =>
-                            (e.currentTarget.style.color = "#131836")
-                          }
-                          onMouseLeave={(e) =>
-                            (e.currentTarget.style.color = "#8f3e0b")
-                          }
-                        >
-                          View Product
-                        </Link>
+                        <div className="category-btn ">
+                          {" "}
+                          <Link
+                            href="/our-products"
+                            className="tf-btn style-secondary  style-secondary wow fadeInUp"
+                            data-wow-delay="0.3s"
+                            style={{ borderRadius: "12px" }}
+                          >
+                            <span className="text-yellow-400 font-bold">
+                              View products
+                            </span>{" "}
+                            <i className="icon-arrow-top-right ml-2" />
+                          </Link>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </SwiperSlide>
               ))}
             </Swiper>
-            <div className="event-btn flex justify-center ">
+            {/* <div className="flex justify-center ">
               <Link
                 href="/our-products"
                 className="tf-btn style-secondary wow fadeInUp"
@@ -105,7 +105,7 @@ export default function Events() {
                 </span>{" "}
                 <i className="icon-arrow-top-right ml-2" />
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

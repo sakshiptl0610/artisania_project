@@ -303,7 +303,7 @@
 }
 
 .page-title {
-  padding: 53px 0 51px;
+  padding: 120px 0 120px;
   background-color: var(--bg-4);
   position: relative;
 
@@ -311,10 +311,12 @@
     position: absolute;
     content: "";
     inset: 0;
-    // background-image: url(./../images/page-title/inner-page.png);
+    background-image: url(./../images/banner/bhil-art.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    margin-top: 80px;
+  // opacity: 0.7;
   }
 
   .breadcrumbs {
@@ -1659,7 +1661,7 @@
   }
 
   &.all-course {
-    padding: 60px 0 51px;
+    // padding: 60px 0 51px;
 
     h2 {
       font-size: 42px;
@@ -1845,9 +1847,6 @@
         &.add-to-cart {
           background-color: var(--Secondary);
 
-          a {
-            
-          }
         }
 
         &.buy-now {
@@ -2326,11 +2325,12 @@
 .section-get-started {
   .get-started-wrap {
     .wrap-content {
-      @include flex(flex-start, center);
+      @include flex(flex-start, start);
       flex-direction: column;
-      background-color: #d6ebf4;
-      padding: 10px 80px 21px 80px;
-      width: 51%;
+      background-color: #e4d3ac;
+      padding: 40px;
+      border-radius: 15px 0px 0px 15px;
+      width: 70%;
 
       h2 {
         margin-bottom: 17px;
@@ -2346,11 +2346,12 @@
       position: relative;
       align-items: flex-end;
       width: 49%;
-
+      
       img {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        border-radius: 0 15px 15px 0;
       }
 
       .tags-list {
@@ -2420,23 +2421,19 @@
 
     .getstared-image {
       padding-right: 45px;
-      padding-top: 3px;
+      // padding-top: 3px;
     }
 
     .getstared-content {
-      padding-left: 119px;
-      margin-top: -6px;
+      // padding-left: 119px;
+      // margin-top: -6px;
 
       .title {
         letter-spacing: 0.9px;
         margin-bottom: 20px;
       }
 
-      p {
-        font-size: 15px;
-        color: var(--Soft-Text);
-        margin-bottom: 26px;
-      }
+    
     }
   }
 
@@ -2446,9 +2443,9 @@
     }
 
     .getstared-content {
-      padding-left: 121px;
-      margin-top: -14px;
-      padding-right: 40px;
+      // padding-left: 121px;
+      // margin-top: -14px;
+      // padding-right: 40px;
 
       .title {
         margin-bottom: 9px;
@@ -2485,9 +2482,9 @@
     }
 
     .getstared-content {
-      margin-top: -12px;
-      padding-left: 120px;
-      padding-right: 0px;
+      // margin-top: -12px;
+      // padding-left: 120px;
+      // padding-right: 0px;
 
       .title {
         margin-bottom: 19px;
@@ -3426,7 +3423,6 @@
       li {
         gap: 10px !important;
 
-        &.icon {}
       }
     }
   }

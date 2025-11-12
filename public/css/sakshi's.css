@@ -9,3 +9,487 @@
 p {
   text-align: justify;
 }
+
+.text-opacity {
+  background: #e8d3b0;
+  opacity: 0.8;
+  padding: 55px 25px;
+  max-width: 65%;
+  border-radius: 10px;
+  border: 1px solid #987b5f;
+}
+
+.category-btn {
+  background-color: #e4d3ac;
+  border-radius: 8px;
+  padding: 6px 15px;
+  margin: 5px;
+}
+
+.category-btn:hover {
+  background-color: #6345333b;
+  border-radius: 8px;
+  padding: 6px 15px;
+  margin: 5px;
+
+}
+
+.gond-title {
+  padding: 130px 0 120px;
+  background-color: var(--bg-4);
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-image: url(./../images/banner/gond-art.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+
+  }
+
+  .breadcrumbs {
+    margin-bottom: 47px;
+    height: 14px;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+  }
+
+  &.has-bg4 {
+    background-color: var(--bg-4) !important;
+    padding: 60px 0 !important;
+  }
+
+  &.no-border {
+    .content {
+      border: none !important;
+      padding-bottom: 0px !important;
+    }
+  }
+
+  &.has-tags-bg-white {
+    .tags-list {
+      .tag-list-item {
+        background-color: var(--White) !important;
+
+        &:hover {
+          background-color: var(--bg-2) !important;
+        }
+      }
+    }
+  }
+
+  &.has-tags-bg-sky {
+    .tag-list {
+      .tag-list-item {
+        background-color: rgb(214, 235, 244) !important;
+
+        &:hover {
+          background-color: var(--bg-2) !important;
+        }
+      }
+    }
+  }
+
+  &.page-help {
+    padding: 61px 0 24px;
+
+    .content {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 925px;
+
+      h6 {
+        margin-bottom: 22px;
+      }
+
+      form {
+        border-radius: 999px;
+        overflow: hidden;
+        box-shadow: 0px 1px 4px 0px rgba(64, 79, 104, 0.1019607843);
+        margin-bottom: 35px;
+      }
+    }
+  }
+
+  &.page-become-teacher {
+    padding-bottom: 60px;
+
+    h6 {
+      margin-bottom: 22px;
+    }
+  }
+}
+
+.Warli-title {
+  padding: 130px 0 120px;
+  background-color: var(--bg-4);
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-image: url(./../images/banner/warli-art.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+
+  }
+
+  .breadcrumbs {
+    margin-bottom: 47px;
+    height: 14px;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+  }
+
+  &.has-bg4 {
+    background-color: var(--bg-4) !important;
+    padding: 60px 0 !important;
+  }
+
+  &.no-border {
+    .content {
+      border: none !important;
+      padding-bottom: 0px !important;
+    }
+  }
+
+  &.has-tags-bg-white {
+    .tags-list {
+      .tag-list-item {
+        background-color: var(--White) !important;
+
+        &:hover {
+          background-color: var(--bg-2) !important;
+        }
+      }
+    }
+  }
+
+  &.has-tags-bg-sky {
+    .tag-list {
+      .tag-list-item {
+        background-color: rgb(214, 235, 244) !important;
+
+        &:hover {
+          background-color: var(--bg-2) !important;
+        }
+      }
+    }
+  }
+
+  &.page-help {
+    padding: 61px 0 24px;
+
+    .content {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 925px;
+
+      h6 {
+        margin-bottom: 22px;
+      }
+
+      form {
+        border-radius: 999px;
+        overflow: hidden;
+        box-shadow: 0px 1px 4px 0px rgba(64, 79, 104, 0.1019607843);
+        margin-bottom: 35px;
+      }
+    }
+  }
+
+  &.page-become-teacher {
+    padding-bottom: 60px;
+
+    h6 {
+      margin-bottom: 22px;
+    }
+  }
+}
+
+.thola-title {
+  padding: 130px 0 120px;
+  background-color: var(--bg-4);
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-image: url(./../images/banner/tholu-bommalata.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 80px;
+
+  }
+
+  .breadcrumbs {
+    margin-bottom: 47px;
+    height: 14px;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+  }
+
+  &.has-bg4 {
+    background-color: var(--bg-4) !important;
+    padding: 60px 0 !important;
+  }
+
+  &.no-border {
+    .content {
+      border: none !important;
+      padding-bottom: 0px !important;
+    }
+  }
+
+  &.has-tags-bg-white {
+    .tags-list {
+      .tag-list-item {
+        background-color: var(--White) !important;
+
+        &:hover {
+          background-color: var(--bg-2) !important;
+        }
+      }
+    }
+  }
+
+  &.has-tags-bg-sky {
+    .tag-list {
+      .tag-list-item {
+        background-color: rgb(214, 235, 244) !important;
+
+        &:hover {
+          background-color: var(--bg-2) !important;
+        }
+      }
+    }
+  }
+
+  &.page-help {
+    padding: 61px 0 24px;
+
+    .content {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 925px;
+
+      h6 {
+        margin-bottom: 22px;
+      }
+
+      form {
+        border-radius: 999px;
+        overflow: hidden;
+        box-shadow: 0px 1px 4px 0px rgba(64, 79, 104, 0.1019607843);
+        margin-bottom: 35px;
+      }
+    }
+  }
+
+  &.page-become-teacher {
+    padding-bottom: 60px;
+
+    h6 {
+      margin-bottom: 22px;
+    }
+  }
+}
+
+.mata-title {
+  padding: 130px 0 120px;
+  background-color: var(--bg-4);
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-image: url(./../images/banner/mata-di-pachedi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 80px;
+
+  }
+
+  .breadcrumbs {
+    margin-bottom: 47px;
+    height: 14px;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+  }
+
+  &.has-bg4 {
+    background-color: var(--bg-4) !important;
+    padding: 60px 0 !important;
+  }
+
+  &.no-border {
+    .content {
+      border: none !important;
+      padding-bottom: 0px !important;
+    }
+  }
+
+  &.has-tags-bg-white {
+    .tags-list {
+      .tag-list-item {
+        background-color: var(--White) !important;
+
+        &:hover {
+          background-color: var(--bg-2) !important;
+        }
+      }
+    }
+  }
+
+  &.has-tags-bg-sky {
+    .tag-list {
+      .tag-list-item {
+        background-color: rgb(214, 235, 244) !important;
+
+        &:hover {
+          background-color: var(--bg-2) !important;
+        }
+      }
+    }
+  }
+
+  &.page-help {
+    padding: 61px 0 24px;
+
+    .content {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 925px;
+
+      h6 {
+        margin-bottom: 22px;
+      }
+
+      form {
+        border-radius: 999px;
+        overflow: hidden;
+        box-shadow: 0px 1px 4px 0px rgba(64, 79, 104, 0.1019607843);
+        margin-bottom: 35px;
+      }
+    }
+  }
+
+  &.page-become-teacher {
+    padding-bottom: 60px;
+
+    h6 {
+      margin-bottom: 22px;
+    }
+  }
+}
+
+.sanjhi-title {
+  padding: 130px 0 120px;
+  background-color: var(--bg-4);
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-image: url(./../images/banner/sanjhi-art.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+
+  }
+
+  .breadcrumbs {
+    margin-bottom: 47px;
+    height: 14px;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+  }
+
+  &.has-bg4 {
+    background-color: var(--bg-4) !important;
+    padding: 60px 0 !important;
+  }
+
+  &.no-border {
+    .content {
+      border: none !important;
+      padding-bottom: 0px !important;
+    }
+  }
+
+  &.has-tags-bg-white {
+    .tags-list {
+      .tag-list-item {
+        background-color: var(--White) !important;
+
+        &:hover {
+          background-color: var(--bg-2) !important;
+        }
+      }
+    }
+  }
+
+  &.has-tags-bg-sky {
+    .tag-list {
+      .tag-list-item {
+        background-color: rgb(214, 235, 244) !important;
+
+        &:hover {
+          background-color: var(--bg-2) !important;
+        }
+      }
+    }
+  }
+
+  &.page-help {
+    padding: 61px 0 24px;
+
+    .content {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 925px;
+
+      h6 {
+        margin-bottom: 22px;
+      }
+
+      form {
+        border-radius: 999px;
+        overflow: hidden;
+        box-shadow: 0px 1px 4px 0px rgba(64, 79, 104, 0.1019607843);
+        margin-bottom: 35px;
+      }
+    }
+  }
+
+  &.page-become-teacher {
+    padding-bottom: 60px;
+
+    h6 {
+      margin-bottom: 22px;
+    }
+  }
+}

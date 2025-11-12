@@ -10,8 +10,8 @@ export default function PageTitle({
         <div className="row">
           <div className="col-12">
             <div className="content">
-              <h2 className="font-cardo fw-7">Our Products</h2>
-              <p>
+              <h2 className="font-cardo fw-7 text-center">Our Products</h2>
+              <p className="text-center">
                 Handcrafted Gond art products that blend tribal tradition with
                 modern elegance — vibrant, soulful, and full of stories.
               </p>
