@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 export default function GondTitle() {
   return (
     <div className="gond-title all-course categories">

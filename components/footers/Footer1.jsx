@@ -124,14 +124,15 @@ export default function Footer1({ parentClass = "footer" }) {
                         <div className="icon pb-4">
                           <i className="flaticon-mail-1" />
                         </div>
-                        <p>support@ AAVAKSHA.in</p>
+                        <p>support@AAVAKSHA.in</p>
                       </li>
                       <li className="flex gap-10 items-center">
                         <div className="icon pb-4 pb-lg-5 mb-lg-4">
                           <i className="flaticon-location" />
                         </div>
                         <p>
-                          21 Handicraft Lane, Bhubaneswar, <br />
+                          21 Handicraft Lane, Bhubaneswar,
+                          <br />
                           Odisha, India
                         </p>
                       </li>
@@ -150,7 +151,7 @@ export default function Footer1({ parentClass = "footer" }) {
               <div className="col-12">
                 <div className="footer-bottom-wrap flex justify-center items-center">
                   <p>
-                    © {new Date().getFullYear()}
+                    ©{new Date().getFullYear()}
                     <strong>AAVAKSHA</strong>. Handcrafted with love in India.
                   </p>
                 </div>
