@@ -1,6 +1,4 @@
 import React from "react";
-import Link from "next/link";
-
 export default function PageTitle({
   parentClass = "page-title style-2 no-border has-bg4 ",
 }) {

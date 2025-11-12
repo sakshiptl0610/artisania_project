@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 export default function WarliTitle() {
   return (
     <div className="Warli-title all-course categories">

@@ -1,7 +1,7 @@
 import Footer1 from "@/components/footers/Footer1";
 import Header4 from "@/components/headers/Header4";
 
-import GondTitle from "@/components/homes/gond-art/gondtitle";
+import GondTitle from "@/components/homes/gond-art/GondTitle";
 import Blogs1 from "@/components/homes/our-products/Blogs1";
 
 import React from "react";
