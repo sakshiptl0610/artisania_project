@@ -9,15 +9,16 @@ export default function WarliTitle() {
             <div className="content text-opacity">
               <h2 className="font-cardo fw-7 text-center">WARLI ART</h2>
               <h6 className="letter-spacing-2 text-center">
-                Warli art belongs to the Warli tribe from the coastal regions of
-                Maharashtra and Gujarat. Originally hunter-gatherers, they later
-                settled into farming due to new forest laws during British rule.
-                Their art reflects their close bond with nature and is made
-                during weddings, childbirth, and festivals. Traditionally
-                painted by married women, Warli paintings use white rice paste
-                on mud walls coated with cow dung or red earth. A common design
-                is the Lagna Chaukat (Marriage Square), painted before a
-                wedding.
+                Warli art originates from the Warli tribe living in the coastal
+                regions of Maharashtra and Gujarat. Once hunter-gatherers, they
+                later adopted farming after British forest laws restricted their
+                traditional lifestyle. Deeply connected to nature, Warli
+                paintings are created during weddings, childbirth, and harvest
+                festivals.Traditionally painted by married women, these artworks
+                use white rice paste on mud walls coated with cow dung or red
+                earth.A well-known motif is the Lagna Chaukat (Marriage Square),
+                drawn before a wedding as a symbol of prosperity and
+                celebration.
               </h6>
             </div>
           </div>
