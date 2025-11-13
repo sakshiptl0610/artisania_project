@@ -35,43 +35,6 @@ export const events = [
     time: "8:00 am - 5:00 pm",
     title: "Sanjhi Art",
   },
-  {
-    id: 5,
-    imgSrc: "/images/ourproducts/5.png",
-    alt: "Hand painted Gond style Tray/plate",
-    date: { day: "22", month: "April" },
-    location: "New York, Us",
-    time: "8:00 am - 5:00 pm",
-    title: "0005",
-  },
-
-  {
-    id: 6,
-    imgSrc: "/images/ourproducts/6.png",
-    alt: "Hand painted Gond style Tray/plate",
-    date: { day: "22", month: "April" },
-    location: "New York, Us",
-    time: "8:00 am - 5:00 pm",
-    title: "0006",
-  },
-  {
-    id: 7,
-    imgSrc: "/images/ourproducts/7.png",
-    alt: "Hand painted Gond style Tray/plate",
-    date: { day: "22", month: "April" },
-    location: "New York, Us",
-    time: "8:00 am - 5:00 pm",
-    title: "0007",
-  },
-  {
-    id: 8,
-    imgSrc: "/images/ourproducts/8.png",
-    alt: "Hand painted Gond style Tray/plate",
-    date: { day: "22", month: "April" },
-    location: "New York, Us",
-    time: "8:00 am - 5:00 pm",
-    title: "0008",
-  },
 ];
 
 export const events2 = [
