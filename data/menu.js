@@ -17,7 +17,7 @@ export const menuItems = [
   {
     title: "What We Do",
     subItems: [
-      { id: 2.1, title: "Workshops", href: "#" },
+      { id: 2.1, title: "Workshops", href: "/workshops" },
       { id: 2.2, title: "Wall Art", href: "#" },
       { id: 2.3, title: "Tours", href: "#" },
       { id: 2.4, title: "Publications", href: "#" },
