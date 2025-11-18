@@ -127,7 +127,7 @@ export default function Founder2() {
                 <div className="relative w-full h-full">
                   <Image
                     className="lazyload rounded-xl object-cover"
-                    src="/images/page-title/mrs-padmaja.png"
+                    src="/images/page-title/mrs-Padmaja.png"
                     alt="Padmaja Srivastava"
                     width={800}
                     height={600}
