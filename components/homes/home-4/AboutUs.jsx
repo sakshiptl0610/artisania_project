@@ -8,7 +8,7 @@ export default function AboutUs() {
     >
       <div className="tf-container ">
         <div className="row items-center" style={{ paddingTop: "30px" }}>
-          <div className="col-md-6 col-lg-7">
+          <div className="col-md-5 col-lg-5">
             <div className="box-img">
               <div className="wrap-image-agent">
                 <div className="image d-none d-lg-block d-sm-none">
@@ -46,17 +46,9 @@ export default function AboutUs() {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-5">
+          <div className="col-md-7 col-lg-7">
             <div className="content-wrap">
-              <div className="box-sub-tag wow fadeInUp" data-wow-delay="0.1s">
-                <div className="sub-tag-icon">
-                  <i className="icon-flash" />
-                </div>
-                <div className="sub-tag-title">
-                  <p>About Us </p>
-                </div>
-              </div>
-              <h2
+              {/* <h2
                 className="title-content fw-7  wow fadeInUp"
                 data-wow-delay="0.2s"
               >
@@ -64,9 +56,9 @@ export default function AboutUs() {
                   className="tf-secondary-color font-cardo
                 "
                 >
-                  Our Journey of Art, Impact, and Empowerment{" "}
+                  About Us{" "}
                 </span>
-              </h2>
+              </h2> */}
               <p
                 className="text-content wow fadeInUp"
                 data-wow-delay="0.3s"
@@ -76,30 +68,45 @@ export default function AboutUs() {
                   textDecoration: "none",
                 }}
               >
-                We are a socially responsible enterprise dedicated to creating a
-                meaningful balance between commercial growth and social impact.
-                Our work centers on the welfare of tribal artisans and the
-                preservation of India’s indigenous art and craft traditions.
-                Acting as a bridge between tribal communities and global
-                audiences, we connect India’s rich cultural heritage with
-                collaborators, collectors, and conscious consumers around the
-                world. Our initiatives encompass skill development, design
-                innovation, and product diversification — empowering artisans to
-                refine their traditional practices while adapting to
-                contemporary markets. Through workshops, training programs, and
-                design interventions, we nurture creative growth and ensure that
-                traditional knowledge continues to evolve with modern
-                sensibilities. We also provide cultural exposure to our artists
-                by organizing national and international exhibitions and
-                workshops. In collaboration with the French NGO Duppata, which
-                promotes women’s empowerment and Indian tribal art, we
-                participate in an annual month-long cultural event in France
-                featuring exhibitions and artist residencies. These initiatives
-                foster cross-cultural dialogue and global appreciation for
-                India’s tribal artistry. At the heart of our organization is a
-                founder deeply committed to sustaining tribal livelihoods,
-                nurturing creativity, and safeguarding the living legacy of
-                India’s indigenous art forms.
+                <p>
+                  {" "}
+                  We are a socially responsible enterprise dedicated to creating
+                  a meaningful balance between commercial growth and social
+                  impact. Our work centers on the welfare of tribal artisans and
+                  the preservation of India’s indigenous art and craft
+                  traditions. Acting as a bridge between tribal communities and
+                  global audiences, we connect India’s rich cultural heritage
+                  with collaborators, collectors, and conscious consumers around
+                  the world.
+                </p>
+                <br />
+                <p>
+                  Our initiatives encompass skill development, design
+                  innovation, and product diversification — empowering artisans
+                  to refine their traditional practices while adapting to
+                  contemporary markets. Through workshops, training programs,
+                  and design interventions, we nurture creative growth and
+                  ensure that traditional knowledge continues to evolve with
+                  modern sensibilities.
+                </p>
+                <br />
+                <p>
+                  We also provide cultural exposure to our artists by organizing
+                  national and international exhibitions and workshops. In
+                  collaboration with the French NGO Duppata, which promotes
+                  women’s empowerment and Indian tribal art, we participate in
+                  an annual month-long cultural event in France featuring
+                  exhibitions and artist residencies. These initiatives foster
+                  cross-cultural dialogue and global appreciation for India’s
+                  tribal artistry.
+                </p>
+                <br />
+                <p>
+                  At the heart of our organization is a founder deeply committed
+                  to sustaining tribal livelihoods, nurturing creativity, and
+                  safeguarding the living legacy of India’s indigenous art
+                  forms.
+                </p>
               </p>
               <a
                 className="tf-btn style-secondary wow fadeInUp"

@@ -1206,53 +1206,47 @@
 }
 
 .page-title-home7 {
-  background-image: url(./../images/section/start-banner-1.jpg);
+background-color: #fffdf0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   overflow: hidden;
 
-  &::after {
-    position: absolute;
-    content: "";
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 144px;
-    background-color: var(--White);
-    clip-path: polygon(0 76.39%, 100% 0%, 100% 100%, 0% 100%);
-    z-index: 5;
-  }
+  // &::after {
+  //   position: absolute;
+  //   content: "";
+  //   bottom: 0;
+  //   left: 0;
+  //   right: 0;
+  //   height: 144px;
+  //   background-color: var(--White);
+  //   clip-path: polygon(0 76.39%, 100% 0%, 100% 100%, 0% 100%);
+  //   z-index: 5;
+  // }
 
   .content-page-title {
-    padding-top: 196px;
-    padding-bottom: 240px;
+    padding-top: 40px;
+    padding-bottom: 120px;
 
     .widget.box-sub-tag {
       box-shadow: 0px 1px 4px 0px #404f680d;
       background-color: transparent;
       margin-bottom: 23px;
 
-      .sub-tag-icon {
-        background-color: var(--White);
-      }
-
-      p {
-        color: var(--White);
-      }
+      
     }
 
     h1 {
       margin-bottom: 13px;
       line-height: 78.12px;
       letter-spacing: 2.5px;
-      color: var(--White);
+     
     }
 
     h6 {
       margin-bottom: 30px;
-      color: var(--White);
+    
     }
 
     .bottom-btns {
@@ -1261,7 +1255,7 @@
       gap: 30px 20px;
       margin-bottom: 31px;
 
-      >a {
+      a {
         border: 0;
         border-radius: 12px;
         padding: 14px 35px;
@@ -1305,15 +1299,46 @@
 
   .image-page-title {
     position: absolute;
-    top: 149px;
+    top: 40px;
     right: -41px;
-    max-width: 740px;
+    max-width: 630px;
 
     .course-item {
       &.style-2 {
         &.has-padding {
           .features {
-            margin: 20px 20px 0 20px;
+            margin: 5px;
+
+            img {
+              min-height: 240px;
+            }
+          }
+        }
+
+        .content {
+          padding-top: 10px;
+
+          h6 {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 30px;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+   .image-page-title2 {
+    position: absolute;
+    top: 40px;
+    left: -38px;
+    max-width: 630px;
+
+    .course-item {
+      &.style-2 {
+        &.has-padding {
+          .features {
+            margin: 5px;
 
             img {
               min-height: 240px;
@@ -1335,10 +1360,10 @@
     }
   }
 
-  .swiper-slide-next {
-    opacity: 0.5;
-    @include transition3();
-  }
+  // .swiper-slide-next {
+  //   opacity: 0.5;
+  //   @include transition3();
+  // }
 }
 
 .page-title-home8 {
@@ -2044,7 +2069,7 @@
 
     .wrap-image-agent {
       padding-bottom: 7px;
-      width: 42.2%;
+      width: 49.2%;
 
       .image {
         margin-bottom: 10px;
@@ -3162,7 +3187,7 @@
       left: 0;
       right: 0;
       height: 144px;
-      background-color: #fffdf0;
+      background-color: #634533;
       clip-path: polygon(0 76.39%, 100% 0%, 100% 100%, 0% 100%);
       z-index: 5;
     }

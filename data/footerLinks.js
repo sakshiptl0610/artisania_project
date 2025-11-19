@@ -4,9 +4,9 @@ export const menuItems = [
     delay: "0.2s",
     links: [
       { name: "Home", href: "/" },
-      { name: "About Us", href: "/about" },
-      { name: "Our Products", href: "/products" },
-      { name: "Gallery", href: "/gallery" },
+      { name: "About Us", href: "/about-us" },
+      { name: "Our Products", href: "/our-products" },
+
       { name: "Contact", href: "/contact" },
     ],
   },

@@ -104,6 +104,17 @@
         position: unset
     }
 }
+.swiper-bottom2 {
+    @include d-flex();
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 23px;
+    justify-content: end;
+    > div {
+        position: unset
+    }
+}
 
 .gallery {
     width: 100%;

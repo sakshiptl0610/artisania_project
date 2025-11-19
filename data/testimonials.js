@@ -153,53 +153,53 @@ export const avatars = [
 
 export const testimonials2 = [
   {
-    imgSrc: "/images/avatar/user-4.png",
-    name: "Nicole Wells",
-    role: "Founder",
-    testimonial:
-      "Customization is very easy with this theme. Clean and quality design and full support for any kind of request! Great theme!",
-    rating: 5,
+    imgSrc: "/images/workshop/1.png",
+    // name: "Nicole Wells",
+    // role: "Founder",
+    // testimonial:
+    //   "Customization is very easy with this theme. Clean and quality design and full support for any kind of request! Great theme!",
+    // rating: 5,
   },
   {
-    imgSrc: "/images/avatar/user-5.png",
-    name: "Nicole Wells",
-    role: "Founder",
-    testimonial:
-      "Customization is very easy with this theme. Clean and quality design and full support for any kind of request! Great theme!",
-    rating: 5,
+    imgSrc: "/images/workshop/2.png",
+    // name: "Nicole Wells",
+    // role: "Founder",
+    // testimonial:
+    //   "Customization is very easy with this theme. Clean and quality design and full support for any kind of request! Great theme!",
+    // rating: 5,
   },
   {
-    imgSrc: "/images/avatar/user-6.png",
-    name: "Nicole Wells",
-    role: "Founder",
-    testimonial:
-      "Customization is very easy with this theme. Clean and quality design and full support for any kind of request! Great theme!",
-    rating: 5,
+    imgSrc: "/images/workshop/1.png",
+    // name: "Nicole Wells",
+    // role: "Founder",
+    // testimonial:
+    //   "Customization is very easy with this theme. Clean and quality design and full support for any kind of request! Great theme!",
+    // rating: 5,
   },
-  {
-    imgSrc: "/images/avatar/user-7.png",
-    name: "Nicole Wells",
-    role: "Founder",
-    testimonial:
-      "Customization is very easy with this theme. Clean and quality design and full support for any kind of request! Great theme!",
-    rating: 5,
-  },
-  {
-    imgSrc: "/images/avatar/user-8.png",
-    name: "Nicole Wells",
-    role: "Founder",
-    testimonial:
-      "Customization is very easy with this theme. Clean and quality design and full support for any kind of request! Great theme!",
-    rating: 5,
-  },
-  {
-    imgSrc: "/images/avatar/user-5.png",
-    name: "Nicole Wells",
-    role: "Founder",
-    testimonial:
-      "Customization is very easy with this theme. Clean and quality design and full support for any kind of request! Great theme!",
-    rating: 5,
-  },
+  // {
+  //   imgSrc: "/images/avatar/user-7.png",
+  //   name: "Nicole Wells",
+  //   role: "Founder",
+  //   testimonial:
+  //     "Customization is very easy with this theme. Clean and quality design and full support for any kind of request! Great theme!",
+  //   rating: 5,
+  // },
+  // {
+  //   imgSrc: "/images/avatar/user-8.png",
+  //   name: "Nicole Wells",
+  //   role: "Founder",
+  //   testimonial:
+  //     "Customization is very easy with this theme. Clean and quality design and full support for any kind of request! Great theme!",
+  //   rating: 5,
+  // },
+  // {
+  //   imgSrc: "/images/avatar/user-5.png",
+  //   name: "Nicole Wells",
+  //   role: "Founder",
+  //   testimonial:
+  //     "Customization is very easy with this theme. Clean and quality design and full support for any kind of request! Great theme!",
+  //   rating: 5,
+  // },
 ];
 
 export const reviews = [

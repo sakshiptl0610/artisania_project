@@ -12,7 +12,7 @@ p {
 
 .text-opacity {
   background: #e8d3b0;
-  opacity: 0.8;
+  opacity: 0.9;
   padding: 55px 25px;
   max-width: 65%;
   border-radius: 10px;
@@ -508,4 +508,104 @@ p {
       margin-bottom: 22px;
     }
   }
+}
+
+.work-title {
+  padding: 130px 0 120px;
+  background-color: var(--bg-4);
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-image: url(./../images/banner/workshop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+
+  }
+
+  .breadcrumbs {
+    margin-bottom: 47px;
+    height: 14px;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+  }
+
+  &.has-bg4 {
+    background-color: var(--bg-4) !important;
+    padding: 60px 0 !important;
+  }
+
+  &.no-border {
+    .content {
+      border: none !important;
+      padding-bottom: 0px !important;
+    }
+  }
+
+  &.has-tags-bg-white {
+    .tags-list {
+      .tag-list-item {
+        background-color: var(--White) !important;
+
+        &:hover {
+          background-color: var(--bg-2) !important;
+        }
+      }
+    }
+  }
+
+  &.has-tags-bg-sky {
+    .tag-list {
+      .tag-list-item {
+        background-color: rgb(214, 235, 244) !important;
+
+        &:hover {
+          background-color: var(--bg-2) !important;
+        }
+      }
+    }
+  }
+
+  &.page-help {
+    padding: 61px 0 24px;
+
+    .content {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 925px;
+
+      h6 {
+        margin-bottom: 22px;
+      }
+
+      form {
+        border-radius: 999px;
+        overflow: hidden;
+        box-shadow: 0px 1px 4px 0px rgba(64, 79, 104, 0.1019607843);
+        margin-bottom: 35px;
+      }
+    }
+  }
+
+  &.page-become-teacher {
+    padding-bottom: 60px;
+
+    h6 {
+      margin-bottom: 22px;
+    }
+  }
+}
+
+.custom-pb {
+  padding-bottom: 80px;
+}
+
+.custom-pt {
+  padding-top: 80px;
 }

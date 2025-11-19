@@ -11,7 +11,7 @@ export default function Founder2() {
       style={{ backgroundColor: "#fffdf0" }}
     >
       <h2 className="font-cardo fw-7 wow text-center p-3" data-wow-delay="0s">
-        Our Founders
+        Our Founder
       </h2>
 
       <div className="tf-container">
@@ -22,18 +22,6 @@ export default function Founder2() {
               {/* LEFT CONTENT */}
               <div className="wrap-content md:w-1/2 flex flex-col justify-between">
                 <div>
-                  <div
-                    className="box-sub-tag wow fadeInUp"
-                    data-wow-delay="0.1s"
-                  >
-                    <div className="sub-tag-icon">
-                      <i className="icon-flash" />
-                    </div>
-                    <div className="sub-tag-title">
-                      <span>Founder</span>
-                    </div>
-                  </div>
-
                   <h2
                     className="font-cardo fw-7 wow fadeInUp mt-3"
                     data-wow-delay="0s"
@@ -66,25 +54,25 @@ export default function Founder2() {
                     in 2014, where she showcased the works of four tribal women
                     artists from central India. In 2015, she co-authored a
                     French children’s book, “L’Elephant Volant,” reflecting her
-                    creative versatility and global outlook.
+                    creative versatility and global outlook. Beyond exhibitions,
+                    Padmaja’s collaborations have created meaningful social
+                    impact. Partnering with Duppata, an NGO in France, she
+                    promotes women’s empowerment by facilitating annual
+                    exhibitions of Gond, Warli, Madhubani, and Bhil art.
                   </p>
 
                   {showMore && (
                     <div className="fs-15 text-gray-700 leading-relaxed space-y-3 mt-3">
                       <p>
-                        Beyond exhibitions, Padmaja’s collaborations have
-                        created meaningful social impact. Partnering with
-                        Duppata, an NGO in France, she promotes women’s
-                        empowerment by facilitating annual exhibitions of Gond,
-                        Warli, Madhubani, and Bhil art. Her collaboration with
-                        the Beatrice Wood Center for Arts in California (2017)
-                        and exhibitions of Baiga tribal art in Milan and Paris
-                        (2019) have further strengthened her role as a cultural
-                        ambassador. She has also worked with global brands like
-                        Starbucks, providing Gond artists a platform in their
-                        stores, and with Exim Bank of India, curating product
-                        development workshops that led to exclusive collections
-                        of hand-painted products made by tribal artisans.
+                        Her collaboration with the Beatrice Wood Center for Arts
+                        in California (2017) and exhibitions of Baiga tribal art
+                        in Milan and Paris (2019) have further strengthened her
+                        role as a cultural ambassador. She has also worked with
+                        global brands like Starbucks, providing Gond artists a
+                        platform in their stores, and with Exim Bank of India,
+                        curating product development workshops that led to
+                        exclusive collections of hand-painted products made by
+                        tribal artisans.
                       </p>
                       <p>
                         Her creative collaborations extend into the corporate
@@ -127,7 +115,7 @@ export default function Founder2() {
                 <div className="relative w-full h-full">
                   <Image
                     className="lazyload rounded-xl object-cover"
-                    src="/images/page-title/mrs-padmaja.png"
+                    src="/images/page-title/mrs-Padmaja.png"
                     alt="Padmaja Srivastava"
                     width={800}
                     height={600}

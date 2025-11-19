@@ -7,7 +7,7 @@ import Testimonials from "@/components/homes/home-4/Testimonials";
 import Footer1 from "@/components/footers/Footer1";
 import AboutUs from "@/components/homes/home-4/AboutUs";
 import DownloadApp from "@/components/homes/home-4/DownloadApp";
-
+import Empowering from "@/components/homes/home-4/Empowering";
 export const metadata = {
   title: " AAVAKSHA",
   description:
@@ -20,12 +20,12 @@ export default function page() {
         <Header4 />
         <Hero />
         <div className="main-content pt-0">
-          <AboutUs />
           <DownloadApp />
+          <Empowering />
           <Events />
           {/* <Instractors /> */}
           <Facts />
-          <Testimonials />
+          {/* <Testimonials /> */}
         </div>
         <Footer1 />
       </div>

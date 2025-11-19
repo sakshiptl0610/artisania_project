@@ -1,72 +1,40 @@
 import React from "react";
 import Image from "next/image";
+
 export default function DownloadApp() {
   return (
-    <section className="section-mobile-app style2 bg-4">
+    <section className="section-mobile-app style2 bg-4 custom-pt">
       <div className="tf-container">
         <div className="row">
-          <div className="col-md-8">
-            <div className="content-left">
-              <div className="box-sub-tag wow fadeInUp" data-wow-delay="0.1s">
-                <div className="sub-tag-icon">
-                  <i className="icon-flash" />
-                </div>
-                <div className="sub-tag-title">
-                  <p>About Gond Art</p>
-                </div>
-              </div>
+          <div className="col-12">
+            <div className="pb-5">
               <h2
-                className="fw-7 font-cardo wow fadeInUp"
+                className="fw-7 font-cardo wow fadeInUp mb-3"
                 data-wow-delay="0.2s"
               >
-                <span className="tf-secondary-color"> At AAVAKSHA,</span>
+                <span className="tf-secondary-color ">Empowering By</span>
                 <br />
               </h2>
               <p className="fs-15 wow fadeInUp" data-wow-delay="0.3s">
-                we believe that art is not just an expression but a connection
-                to our roots — a celebration of tradition and a timeless craft
-                passed through generations. Our brand is built on a deep
-                admiration for India’s indigenous art forms, ensuring that every
-                piece we create tells a story of culture, craftsmanship, and
+                With our focus on innovative solutions, Gaia Tree aims to
+                address the problem of cultural degeneration and the loss of art
+                of storytelling. Our goal is to create a platform for
+                traditional art forms to flourish and to inspire younger
+                generations to take an interest in preserving their cultural
                 heritage.{" "}
               </p>
               <p className="fs-15 wow fadeInUp" data-wow-delay="0.3s">
                 {" "}
-                We take pride in curating and designing exclusive art pieces
-                that honour India’s rich artistic traditions. From the intricate
-                strokes of Gond paintings to the eco-friendly craftsmanship of
-                Sabai grass, from handcrafted wooden decor to delicate
-                hand-pressed flower art, our collection is a tribute to the
-                unparalleled skill and spirit of Indian artisans. Each product
-                at AAVAKSHA is a masterpiece, reflecting the vibrant history and
-                soulful essence of our land.
+                We believe that by fostering a deeper appreciation and
+                understanding of diverse cultures through art, we can create a
+                more harmonious and connected world. For the last twenty years
+                we have developed strong partnerships with indigenous artists
+                across India and have successfully introduced their exceptional
+                art at a global level. By bringing attention to the remarkable
+                skills and traditional art forms of these communities, we aim to
+                create sustainable economic opportunities for indigenous artists
+                and help preserve their cultural heritage.
               </p>
-              <p className="fs-15 wow fadeInUp" data-wow-delay="0.3s">
-                Our mission is to bridge the gap between traditional
-                craftsmanship and contemporary lifestyles, making authentic
-                Indian art a part of every home. We work closely with skilled
-                artisans, empowering them to preserve their craft while bringing
-                their exceptional work to a wider audience.
-              </p>
-              <p className="fs-15 wow fadeInUp" data-wow-delay="0.3s">
-                With every purchase from AAVAKSHA, you embrace a piece of
-                India’s artistic legacy - handcrafted with love, rooted in
-                culture, and meant to be cherished for generations.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="pt-lg-5 mt-lg-5 m-0 pt-md-5 p-0">
-              <div className="image">
-                <Image
-                  className="lazyload"
-                  data-src="/images/page-title/about-2.png"
-                  alt=""
-                  src="/images/page-title/about-2.png"
-                  width={500}
-                  height={500}
-                />
-              </div>
             </div>
           </div>
         </div>

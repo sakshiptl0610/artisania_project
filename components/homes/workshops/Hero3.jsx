@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { courses } from "@/data/courese";
+import { courses3 } from "@/data/courese";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
@@ -43,16 +43,20 @@ export default function Hero() {
                     <i className="icon-flash" />
                   </div>
                   <div className="sub-tag-title">
-                    <p>Gond Painting Workshop</p>
+                    <p>Gond wall painting Workshop</p>
                   </div>
                 </div>
                 <h2 className="fw-7 wow fadeInUp" data-wow-delay="0.1s">
-                  Welham Girl's School, Dehradun, India
+                  Rachna Sansad College of Applied Arts, Mumbai, India
                 </h2>
                 <h6 className="wow fadeInUp" data-wow-delay="0.15s">
-                  Students at the school are learning the art of Gond paintings
-                  through a workshop led by prominent Gond artists: Rajendra
-                  Shyam Santosh Maravi
+                  Students from the Rachna Sansad College of Applied Arts in
+                  Mumbai undertook a unique learning experience in the village
+                  of Patangarh. They focused on learning to create the
+                  traditional Gond wall paintings, specifically the styles known
+                  as Digna and Bhittichitra. To preserve and pass on this
+                  indigenous knowledge, ten village women were employed to teach
+                  the art forms to the students.
                 </h6>
               </div>
             </div>
@@ -64,26 +68,18 @@ export default function Hero() {
             modules={[Navigation]}
             className="swiper-container slider-page-title"
           >
-            {courses.slice(0, 3).map((course, i) => (
+            {courses3.slice(0, 6).map((course, i) => (
               <SwiperSlide key={i} className="swiper-slide">
                 <div className="course-item style-2 has-border has-padding hover-img">
                   <div className="features image-wrap">
                     <Image
                       className="lazyload"
-                      data-src="/images/courses/courses-01.jpg"
+                      // data-src="/images/courses2/courses-01.jpg"
                       alt=""
                       src={course.imgSrc}
                       width={520}
                       height={380}
                     />
-                    {/* <div
-                      className={`box-wishlist tf-action-btns ${
-                        isAddedtoWishlist(course.id) ? "active" : ""
-                      } `}
-                      onClick={() => toggleWishlist(course.id)}
-                    >
-                      <i className="flaticon-heart" />
-                    </div> */}
                   </div>
                 </div>
               </SwiperSlide>
@@ -96,13 +92,6 @@ export default function Hero() {
           </Swiper>
         </div>
       </div>{" "}
-      {/* <ModalVideo
-        channel="youtube"
-        youtube={{ mute: 0, autoplay: 0 }}
-        isOpen={isOpen}
-        videoId="MLpWrANjFbI"
-        onClose={() => setOpen(false)}
-      />{" "} */}
     </>
   );
 }

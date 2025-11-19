@@ -24,22 +24,25 @@ export default function Hero() {
 
       <div className="tf-container">
         <div className="row items-center">
-          <div className="col-lg-6">
+          <div className="col-lg-7">
             <div className="content">
               <h1
                 className="fw-7 font-cardo wow fadeInUp"
                 data-wow-delay="0.1s"
               >
                 <span className="tf-secondary-color">
-                  Stories Painted in Dots&nbsp;
+                  Preserving India’s Fading &nbsp;
                 </span>
                 <br />
-                The Legacy of Gond Art
+                Legacy of Art and Craft
               </h1>
               <h6 className="wow fadeInUp" data-wow-delay="0.2s">
-                Every stroke of Gond art transforms simple dots into powerful
-                stories. Rooted in tradition, it celebrates nature, folklore,
-                and culture with colors that breathe life into ancient tales.
+                India’s traditional arts and crafts carry centuries of
+                storytelling, culture, and lived experiences. But with rising
+                modernization and shifting consumer habits, these precious
+                skills are fading. Younger generations are moving away from
+                traditional crafts, making it crucial to preserve and revive
+                these heritage practices.
               </h6>
               <div className="bottom-btns wow fadeInUp" data-wow-delay="0.3s">
                 <a
@@ -58,7 +61,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="col-lg-6 deer flex justify-end content">
+          <div className="col-lg-5 deer flex justify-end content">
             <Image
               className="lazyload"
               src="/images/page-title/page-title-home4-1.png"
