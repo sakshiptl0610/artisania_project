@@ -27,7 +27,7 @@ export default function Courses() {
       pauseOnMouseEnter: false,
     },
 
-    speed: 6000,
+    speed: 4000,
     cssMode: false,
     freeMode: false,
     spaceBetween: 20, // spacing fixed!
@@ -95,6 +95,17 @@ export default function Courses() {
                           />
                         </div>
                       </div>
+                      <h3
+                        className="course-title"
+                        style={{
+                          textAlign: "center",
+                          marginTop: "10px",
+                          fontSize: "18px",
+                          fontWeight: "600",
+                        }}
+                      >
+                        {elm.title}
+                      </h3>
                     </SwiperSlide>
                   ))}
                 </Swiper>
