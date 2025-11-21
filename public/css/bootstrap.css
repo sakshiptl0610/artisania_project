@@ -834,7 +834,7 @@ progress {
     }
 }
 
-@media (min-width:1400px) {
+@media (min-width:1300px) {
 
     .container,
     .container-lg,
@@ -842,7 +842,7 @@ progress {
     .container-sm,
     .container-xl,
     .container-xxl {
-        max-width: 1320px
+        max-width: 1220px
     }
 }
 
@@ -1938,7 +1938,7 @@ progress {
     }
 }
 
-@media (min-width:1400px) {
+@media (min-width:1300px) {
     .col-xxl {
         flex: 1 0 0%
     }
@@ -4043,7 +4043,7 @@ fieldset:disabled .btn {
     }
 }
 
-@media (min-width:1400px) {
+@media (min-width:1300px) {
     .dropdown-menu-xxl-start {
         --bs-position: start
     }
@@ -4864,7 +4864,7 @@ fieldset:disabled .btn {
     }
 }
 
-@media (min-width:1400px) {
+@media (min-width:1300px) {
     .navbar-expand-xxl {
         flex-wrap: nowrap;
         justify-content: flex-start
@@ -5925,7 +5925,7 @@ fieldset:disabled .btn {
     }
 }
 
-@media (min-width:1400px) {
+@media (min-width:1300px) {
     .list-group-horizontal-xxl {
         flex-direction: row
     }
@@ -6500,7 +6500,7 @@ fieldset:disabled .btn {
     }
 }
 
-@media (max-width:1399.98px) {
+@media (max-width:1299.98px) {
     .modal-fullscreen-xxl-down {
         width: 100vw;
         max-width: none;
@@ -7510,7 +7510,7 @@ fieldset:disabled .btn {
     }
 }
 
-@media (max-width:1399.98px) {
+@media (max-width:1299.98px) {
     .offcanvas-xxl {
         position: fixed;
         bottom: 0;
@@ -7527,13 +7527,13 @@ fieldset:disabled .btn {
     }
 }
 
-@media (max-width:1399.98px) and (prefers-reduced-motion:reduce) {
+@media (max-width:1299.98px) and (prefers-reduced-motion:reduce) {
     .offcanvas-xxl {
         transition: none
     }
 }
 
-@media (max-width:1399.98px) {
+@media (max-width:1299.98px) {
     .offcanvas-xxl.offcanvas-start {
         top: 0;
         left: 0;
@@ -8089,7 +8089,7 @@ fieldset:disabled .btn {
     }
 }
 
-@media (min-width:1400px) {
+@media (min-width:1300px) {
     .sticky-xxl-top {
         position: -webkit-sticky;
         position: sticky;
@@ -13098,7 +13098,7 @@ fieldset:disabled .btn {
     }
 }
 
-@media (min-width:1400px) {
+@media (min-width:1300px) {
     .float-xxl-start {
         float: left !important
     }

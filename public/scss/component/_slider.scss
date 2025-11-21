@@ -72,8 +72,7 @@
     height: 36px;
     margin: 0;
     border-radius: 30px;
-    background-color: var(--White);
-    border: 1px solid var(--Border);
+    
     @include transition3();
     &:hover {
         border-color: var(--Primary);
@@ -88,10 +87,10 @@
         border: 0;
     }
     &.swiper-button-prev {
-        left: -71px;
+        left: -50px;
     }
     &.swiper-button-next {
-        right: -71px;
+        right: -50px;
     }
 }
 
